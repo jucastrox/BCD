@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="livro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivrariaPaz</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Cadastre seu Livro!</h2>
+    </form>
+    <br>
+    <form action="#" method="post">
+        <label for ="nome">Título:</label>
+        <input type="text" name="nome" id="nome"
+        required="required" autofocus><br>
+
+        <label>Genero:</label>
+        <select name="objetivo" required>
+            <option value="">Selecione a categoria</option>
+            <option value="Romance">Romance</option>
+            <option value="Suspense">Suspense</option>
+            <option value="terror">Terror</option>
+            <option value="Fantasia">Fantasia</option>
+            <option value="Distopia">Distopia</option>
+            <option value="outro">outro</option>
+        </select>
+        <br>
+
+        <label for="ISBN" class="medidas">ISBN:</label>
+        <input type="number" name="ISBN" id="ISBN"
+        class="medidas" required step="1"><br>
+
+       <label for="Foto">Foto do livro:</label>
+        <input type="file" name="foto" id="foto"
+        required><br>
+
+        <label>comentários Adicionais:</label>
+        <textarea name="Informações" rows="8" cols="25"
+        maxlength="100" required placeholder="Escreva informações adicionais que julgar importante.">
+    </textarea>
+    <br>
+    <input type="submit" name="enviar" value="enviar"id="enviar">
+    <p>
+
+    </form>
+
+</body>
+</html>

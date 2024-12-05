@@ -1,0 +1,68 @@
+label, input, select, textarea{
+    display: block ;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+body{
+   background-attachment: fixed;
+   background-image: url(img/livro2.jpeg);
+}
+
+h2{
+    text-align: center;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roboto-thin {
+   font-family: "Roboto", sans-serif;
+ }
+
+ form{
+    opacity: 0.94;
+    width: 550px;
+    margin: auto;
+    background:cadetblue;
+    padding: 40px;
+    border-radius: 10px;
+    color: whitesmoke;
+ }
+ label{
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    font-size: 18px;
+ }
+ .emlinha{
+    display: inline;
+    width: 10%;
+    font-size: 16px;
+ }
+ .medidas{
+    display: inline;
+    width: 35%;
+ }
+ input[type='checkbox'], input[type='radio']{
+   margin-right: 0px;
+   margin-left: 15px;
+}
+input:focus, select:focus, textarea:focus{
+   outline: none;
+   border: solid 1px lightcoral;
+}
+ #enviar{
+   width: 100%;
+   border: 2px solid lightblue;
+   background-color: rgb(136, 217, 220);
+   color: cadetblue;
+   font-weight: bold;
+   cursor: pointer;
+   padding: 15px;
+ }
+ #enviar:hover{
+  background-color:lightblue;
+  color: whitesmoke;
+transition:all linear 0.3;
+ }
